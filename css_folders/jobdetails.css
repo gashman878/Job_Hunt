@@ -1,0 +1,118 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+html{
+    overflow-y: scroll;
+}
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+.navbar{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: #3f51b5;
+    height: 80px;
+    width: 100%;
+    border-bottom: 1px solid #C5CAE9;
+}
+.navholder{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0 185px;
+}
+.logoHolder{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    height: 70px;
+    width: fit-content;
+}
+.logo{
+    height: 40px;
+}
+.logoCaption{
+    color: white;
+    font-size: 25px;
+    
+    font-weight: 900;
+    margin-left: 10px;
+}
+.navlinks, li{
+    display: inline;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.links{
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    color: white;
+    font-size: 17px;
+    border-radius: 7px;
+    margin-left: 7px;
+}
+.jobBodies{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    overflow: hidden;
+    background-color: #eff6ff;
+    height: 800px;
+    width: 100%;
+}
+.div1{
+    height: 600px;
+    width: 1050px;
+    border-radius: 10px;
+}
+.needed{
+    width: 100%;
+    height: 200px;
+    background-color: white;
+    margin-bottom: 20px;
+    border-radius: inherit;
+    box-shadow: 0 1px 8px 0 rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.19);
+}
+.descriptionBox{
+    width: 100%;
+    height: 300px;
+    background-color: white;
+    border-radius: inherit;
+    margin-bottom: 28px;
+    box-shadow: 0 1px 8px 0 rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.19);
+}
+.div2{
+    height: 615px;
+    width: 450px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 1px 8px 0 rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.19);
+}
+.apply{
+    display: block;
+    padding: 20px;
+    margin: 0 auto;
+    border: none;
+    width: 100%;
+    background-color: #3f51b5;
+    color: white;
+    font-size: larger;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #303F9F;
+    height: 140px;
+    width: 100%;
+}
